@@ -1,0 +1,6 @@
+
+# workaround for the "can't recur here" error mentioned in README
+hooks:
+  pre-running: 
+    - lein run
+    - "rm -rf classes/cljs"
