@@ -1,6 +1,12 @@
-# coding
+# Live Game Editor
 
 An implementation of Bret Victor's neat live game editor in Clojurescript
+
+## Deploying on Stackato
+
+    $ git clone git://github.com/Stackato-Apps/live-cljs.git
+    $ cd live-cljs
+    $ stackato push -n
 
 ## Usage
 
